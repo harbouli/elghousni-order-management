@@ -8,7 +8,7 @@ function App() {
   const [orders, setOrders] = useState([]);
   const [currentView, setCurrentView] = useState("form");
   const [statusFilter, setStatusFilter] = useState("all");
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  // const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const addOrder = (orderData) => {
     console.log("🚀 ~ addOrder ~ orderData:", orderData);
@@ -57,8 +57,8 @@ function App() {
             ☰
           </button>
           <div className="header-text">
-            <h1>🫒 Coopérative Elghousni</h1>
-            <p>Système de Gestion des Commandes</p>
+            <h1>🫒 Coopérative El harbouli</h1>
+            <p>Système de</p>
           </div>
         </div>
       </header>
